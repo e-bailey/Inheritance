@@ -12,7 +12,7 @@ private:
 
 public:
 
-	void getCarInfo(string cManufacturer, int cYear, int cDoors);
+	void getCarInfo(string maker, int y, int doorNum);
 	void displayInfo();
 
 };
