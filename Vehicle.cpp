@@ -1,15 +1,15 @@
 #include "Vehicle.h"
 
-void Vehicle::getInfo(string vManufacturer, int vYear)
+void Vehicle::getInfo(string maker, int y)
 {
-	manufacturer = vManufacturer;
-	year = vYear;
+	manufacturer = maker;
+	year = y;
 
 }
 void Vehicle::displayInfo()
 {
 
-	cout << "Vehicle Information" << '\n';
+	cout << "Vehicle Information: " << '\n';
 	cout << "Manufacturer: " << manufacturer;
 	cout << "Year Built: " << year;
 

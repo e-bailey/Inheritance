@@ -1,3 +1,5 @@
+#ifndef VEHICLE_H
+#define VEHICLE_H
 #include <iostream>
 #include <string>
 
@@ -15,3 +17,4 @@ public:
 	void displayInfo();
 
 };
+#endif
