@@ -1,8 +1,9 @@
 #include "Vehicle.h"
 #include "Truck.h"
 
-void Truck::getTruckInfo(string maker, int y, int capacity)
+void Truck::getInfo(string maker, int y, int capacity)
 {
+	Vehicle::getInfo(maker, y);
 	tow = capacity;
 
 }

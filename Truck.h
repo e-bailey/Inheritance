@@ -11,7 +11,7 @@ private:
 
 public:
 
-	void getTruckInfo(string maker, int y, int capacity);
+	void getInfo(string maker, int y, int capacity);
 	void displayInfo();
 
 };

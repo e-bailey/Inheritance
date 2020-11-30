@@ -1,8 +1,9 @@
 #include "Vehicle.h"
 #include "Car.h"
 
-void Car::getCarInfo(string maker, int y, int doorNum)
+void Car::getInfo(string maker, int y, int doorNum)
 {
+	Vehicle::getInfo(maker, y);
 	doors = doorNum;
 
 }

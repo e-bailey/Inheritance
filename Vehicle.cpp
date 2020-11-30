@@ -10,7 +10,7 @@ void Vehicle::displayInfo()
 {
 
 	cout << "Vehicle Information: " << '\n';
-	cout << "Manufacturer: " << manufacturer;
-	cout << "Year Built: " << year;
+	cout << "Manufacturer: " << manufacturer << '\n';
+	cout << "Year Built: " << year << '\n';
 
 }
